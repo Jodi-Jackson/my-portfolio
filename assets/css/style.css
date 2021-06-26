@@ -1,10 +1,10 @@
 :root {
     --primary-color: #e6d713;
-    --secondary-color: #024e76;
+    --secondary-color: #3b15c5;
     --tertiary-color: #FFFFFF;
   }
 
-* {
+ * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@
     color: var(--tertiary-color);
     font-family: 'Ink Free','Century Gothic','Lucida Sans'; 
   }
-
+/* start header style */
   header {
     padding: 20px 35px;
     background-color: var(--tertiary-color);
@@ -28,6 +28,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: 50%;
+   
      }
   header h1 {
     font-weight: bold;
@@ -35,6 +36,14 @@
     font-size: 36px;
     color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     }
+
+  header img {
+    height: 50px;
+    width: 50px;
+    padding-top: 15px;
+    padding-left: 10px;
+    
   }
   
   header a {
@@ -71,6 +80,8 @@
     margin: 0;
     padding: 0;
 }
+/* end header style */
+/* start hero style */
 .hero {
 background-image: url('../images/cone-flower.jpg');
 background-size: cover;
@@ -87,5 +98,109 @@ background-position: 80%;
   padding-top: 300px;
   padding-bottom: 300px;
 }
+/* end hero style */
+/* start about me style */
+
+.box {
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:left;
+}
+.box h3{
+  font-size: 55px;
+  line-height: 1.5;
+  color: var(--secondary-color);
+  width: 25%;
+  }
+
+.image {
+  width: 15%;
+  padding-left: 100px;
+  border-left: solid;
+  border-color:var(--primary-color) ;
+ }
+
+.box img { height: 150px;
+  width: 150px;
+  }
+
+.paragraph {
+  width: 60%;
+  padding-left: 100px;
+}
+
+.box p {
+  font-size: 22px;
+  color: var(--secondary-color);
+}
+
+
+
+/* end about me style */
+
+.background {
+  background-color: black;
+}
+/* start portfolio style */
+
+.box2 {
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:left;
+}
+.box2 h3{
+  font-size: 55px;
+  line-height: 1.5;
+  color: var(--secondary-color);
+  width: 25%;
+  }
+
+  /* end portfolio style */
+
+  /* start contact me style */
+  .box3 {
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:left;
+  }
+  .box3 h3{
+    font-size: 55px;
+    line-height: 1.5;
+    color: var(--secondary-color);
+    width: 25%;
+    }
+  
+    .paragraph3 {
+      width: 75%;
+      border-left: solid;
+       border-color:var(--primary-color) ;
+        }
+  
+    .paragraph3 p {
+      font-size: 22px;
+      color: var(--secondary-color);
+    }
+  /* end contact me style */
+
+
+
+
+
+
 
 
