@@ -21,7 +21,7 @@ body {
   header {
     padding: 20px 35px;
     background-color: var(--tertiary-color);
-    background-image: url('./images/coneflower.jpg');
+    background-image: url('../images/coneflower.jpg');
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
