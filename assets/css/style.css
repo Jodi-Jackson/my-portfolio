@@ -10,9 +10,12 @@
     padding: 0;
   }
 
-  body {
+body {
     color: var(--tertiary-color);
     font-family: 'Ink Free','Century Gothic','Lucida Sans'; 
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
   }
 /*start header*/
   header {
@@ -143,16 +146,17 @@ background-position: 80%;
     flex-wrap: wrap;
     align-items: center;
     padding-top: 100px;
-    height: fit-content;
+    
     
   }
   .portfolio {
     width: 20%;
+    align-content: unset;
   }
   .portfolio h2{ 
     font-size: 46px;
     color: var(--primary-color);
-
+   
     
   }
   .portfolio-boxes {
@@ -162,8 +166,7 @@ background-position: 80%;
     border-color :var(--secondary-color) ;
     height: auto;
     border-radius: 15px;
-
-       
+           
   }
   .container1{
     width: 90%
@@ -182,6 +185,7 @@ background-position: 80%;
     border-color:var(--primary-color) ;
     height: 1500px;    
     width: 1500px;
+    height: fit-content;
   }
 
   .image1 {flex: 0 0 30%;
