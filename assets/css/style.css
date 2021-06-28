@@ -107,7 +107,7 @@ background-position: 80%;
 }
   
   .title {
-    width: 15%;
+    width: 20%;
   }
   .title h2{ 
     font-size: 46px;
@@ -118,6 +118,7 @@ background-position: 80%;
     width: 10%;
     border-left: solid;
     border-color: var(--secondary-color);
+    border-radius: 15px;
   }
 
   .mypic img{
@@ -126,7 +127,7 @@ background-position: 80%;
    padding-left: 25px;
   }
   .paragraph {
-    width: 75%;
+    width: 70%;
     
   }
   .paragraph p{
@@ -142,11 +143,11 @@ background-position: 80%;
     flex-wrap: wrap;
     align-items: center;
     padding-top: 100px;
-    height: auto;
+    height: fit-content;
     
   }
   .portfolio {
-    width: 15%;
+    width: 20%;
   }
   .portfolio h2{ 
     font-size: 46px;
@@ -160,10 +161,17 @@ background-position: 80%;
     border-left: solid;
     border-color :var(--secondary-color) ;
     height: auto;
+    border-radius: 15px;
+
        
   }
   .container1{
     width: 90%
+  }
+  
+  .container1 h3 { 
+    font-size: 32px;
+    text-align:center;
   }
  
   .container {
@@ -177,9 +185,32 @@ background-position: 80%;
   }
 
   .image1 {flex: 0 0 30%;
-   margin: 30px;}
+   margin: 30px 40px 0px 30px;}
 
- .image1 img {max-width: 100%;}
+ .image1 img {
+   max-width: 100%;
+   border-radius: 10px;
+   border: solid 5px;
+   border-color: var(--secondary-color) ;
+
+}
+
+.grow img {
+  transition: 1s ease;
+}
+
+.grow img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+
+}
+.image1 h3 { 
+  font-size: 32px;
+  text-align: center;
+}
+
 
  /*end portfolio*/
 
