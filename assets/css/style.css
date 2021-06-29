@@ -218,12 +218,64 @@ background-position: 80%;
 
  /*end portfolio*/
 
- /*start hire me*/
+ /*start contact me*/
 
 
+ .box-contact {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+ 
+  
+}
+ .hire {
+  width: 20%;
+}
+.hire h2{ 
+  font-size: 46px;
+  color: var(--primary-color);
+}
+.contact-info {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 125px;
+  }
+ 
+.email {
+  border-left: solid;
+  border-radius: 10px;
+  border-color: var(--secondary-color);
+  font-size: 25px;
+  padding-left: 30px;
+}
+.email a { color: var(--tertiary-color);}
+.phone-number a {
+  color: var(--tertiary-color);
+}
+.phone-number {
+font-size: 25px;
+color: var(--tertiary-color);
+padding-left: 20px;
+}
+.github {
+  font-size: 25px;
+  padding-left: 20px;
+} 
+.github a {
+color: var(--tertiary-color);
+}
+.linkedin img {
+    height: 40px;
+    width: 40px;
+  }
 
 
- /*end hire me*/
+ /*end contact me*/
 
  /*start footer*/
 
