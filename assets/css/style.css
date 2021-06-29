@@ -144,14 +144,14 @@ background-position: 80%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     padding-top: 100px;
     
     
   }
   .portfolio {
     width: 20%;
-    align-content: unset;
+   
   }
   .portfolio h2{ 
     font-size: 46px;
@@ -204,9 +204,9 @@ background-position: 80%;
 }
 
 .grow img:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
   transition: 1s ease;
 
 }
@@ -219,6 +219,9 @@ background-position: 80%;
  /*end portfolio*/
 
  /*start hire me*/
+
+
+
 
  /*end hire me*/
 
