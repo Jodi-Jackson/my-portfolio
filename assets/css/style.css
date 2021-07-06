@@ -244,6 +244,7 @@ background-position: 80%;
   align-items: center;
   justify-content: space-between;
   padding-right: 125px;
+  padding-bottom: 125px;
   }
  
 .email {
@@ -277,10 +278,7 @@ color: var(--tertiary-color);
 
  /*end contact me*/
 
- /*start footer*/
-
- /*end footer*/
-
+ 
  
 
  
